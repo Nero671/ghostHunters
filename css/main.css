@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 104px;
+  padding-left: 34px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+nav {
+  margin-right: 44px;
+  margin-left: auto;
+}
+
+.is-open {
+  display: block !important;
+}
+
+.active {
+  font-weight: bold !important;
+  color: #363636 !important;
+}
+
+.container {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 100%;
+  color: #5671F6;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  border-right: 1px solid #d4d4d4;
+  padding-right: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  border: none;
+  padding-left: 38px;
+  background-position: center left;
+  margin-left: 34px;
+}
+
+.search-input::placeholder {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #A5A5A5;
+}
+
+.nav-link {
+  text-decoration: none;
+ font-weight: normal;
+ font-size: 18px;
+ line-height: 21px;
+ margin-left: 18px;
+ color: #363636;
+}
+
+.button-block {
+  height: 100%;
+}
+
+.btn-reg {
+  font-size: 18px;
+  line-height: 21px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5671F6;
+  border: none;
+  background-color: inherit;
+  padding-right: 34px;
+  padding-left: 34px;
+  cursor: pointer;
+  height: 100%;
+  border-left: 1px solid #d4d4d4;
+}
+
+.btn-enter {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #5671F6;
+  border: none;
+  height: 100%;
+  padding: 41px 50px 42px 50px;
+  cursor: pointer;
+}
+
+#m-menu {
+  background-color: #5671F6;
+  color: #fff;
+  padding-bottom: 131px;
+  display: none;
+}
+
+.m-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.m-search {
+  padding: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 25px;
+}
+
+.nav-link-mobile {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 18px;
+}
+
+.m-line {
+  width: 104px;
+  margin-top: 66px;
+  margin-bottom: 48px;
+  color: #fff;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile-btn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.burger {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  display: none;
+}
+
+.burger span {
+  width: 18px;
+  height: 1px;
+  display: block;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+#film-info{
+  padding: 80px 0px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.film-wrapper {
+  display: flex;
+}
+
+.film-trailer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-trailer {
+  background-color: inherit;
+  border: 1px solid #d4d4d4;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #5671F6;
+  padding: 28px 80px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.play-icon {
+  margin-right: 14px;
+}
+
+.film-text {
+  margin-left: 60px;
+}
+
+.film-title {
+  margin: 0px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #363636;
+  margin-bottom: 16px;
+}
+
+.film-sub {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #A5A5A5;
+}
+
+.film-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  max-width: 514px;
+}
+
+.about-film {
+  display: flex;
+}
+
+.about-text {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color:#363636;
+  margin-top: 16px;
+}
+
+.about-text strong {
+  width: 100px;
+  display: inline-block;
+}
+
+.about-text-regular {
+  margin-left: 10px;
+}
+
+.right-side {
+  margin-left: 40px;
+}
+
+.raiting {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.rate {
+  padding: 34px 24px 33px 23px;
+  border: 1.5px solid #5671F6;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #5671F6;
+}
+
+.rate-info {
+  margin-left: 28px;
+}
+
+.rate-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+}
+
+.rate-num {
+  padding: 0px;
+  margin-top: 12px;
+}
+
+.rate-item {
+  list-style: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #363636;
+  margin-bottom: 7px;
+}
+
+#film-actors {
+  padding: 70px 0px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.actor-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #A5A5A5;
+  margin: 0;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.cast {
+  display: none;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.cast.visible {
+  display: flex !important;
+}
+
+.cast-item {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  margin-bottom: 35px;
+}
+
+.cast-text {
+  margin-left: 20px;
+}
+
+.cast-text-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5671F6;
+  margin: 0px;
+  margin-bottom: 6px;
+}
+
+.cast-text-eng {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
+}
+
+#news {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color: #F3F3F3;
+}
+
+.button-next {
+  background-color: transparent;
+  display: none;
+  position: absolute;
+  right: -1%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  border: none;
+  cursor: pointer;
+}
+
+.news {
+  margin-top: 65px;
+}
+
+.news-item {
+  flex-basis: 23%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 160px;
+}
+
+.news-date {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  
+}
+
+.news-text {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 14px;
+}
+
+  
+
+

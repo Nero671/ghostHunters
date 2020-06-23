@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  nav {
+    margin: 0px
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .btn-reg {
+    padding: 10px;
+  }
+  .btn-enter {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 760px;
+  }
+  nav {
+    display: none;
+  }
+  #search-form {
+    margin-right: auto;
+  }
+  .film-title {
+    font-size: 27px;
+  }
+  .film-description {
+    line-height: 125%;
+    margin-bottom: 10px;
+  }
+  .about-text-regular {
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .cast-item {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .film-wrapper {
+    flex-wrap: wrap;
+  }
+  .film-text {
+    order: -1;
+    margin-bottom: 30px;
+  }
+  .film-trailer {
+    margin: 0 auto;
+  }
+  .news {
+    flex-wrap: wrap;
+  }
+  .news-item {
+    flex-basis: 48%;
+    margin-top: 15px;
+    max-width: 90%;
+  }
+  .button-next {
+    display: block;
+  }
+  header {
+    height: 80px;
+  }
+  .btn-enter, .btn-reg {
+    font-size: 14px;
+  }
+  .btn-enter {
+    padding: 20px;
+  }
+  .search-input::placeholder {
+    font-size: 14px;
+  }
+  .search-input {
+    margin-left: 16px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  #film-info {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  .film-text {
+    order: 1;
+    margin-top: 25px;
+  }
+  .button-block {
+    display: none;
+  }
+  .search-input {
+    display: none;
+  }
+  .logo {
+    border-right: none;
+  }
+  .mobile {
+    display: flex;
+    margin-right: 40px;
+  }
+  .burger {
+    display: flex;
+    margin-right: 30px;
+  }
+  #film-info {
+    padding-top: 30px;
+  }
+  .film-text {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .film-description {
+    margin-top: 26px;
+  }
+  .about-film {
+    margin-top: 40px;
+  }
+  .raiting {
+    margin-top: 40px;
+  }
+  .cast {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .about-film {
+    display: block;
+  }
+  .right-side {
+    margin-left: 0px;
+  }
+  .about-text-regular {
+    display: inline;
+  }
+}
+
+@media (max-width: 380px) {
+  .film-trailer {
+    width: 98%;
+  }
+  .btn-trailer {
+    font-size: 14px;
+  }
+}
